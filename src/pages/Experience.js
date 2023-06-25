@@ -1,7 +1,102 @@
 import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import "../styles/Projects.css";
+import SchoolIcon from "@material-ui/icons/School";
+import WorkIcon from "@material-ui/icons/Work";
+import ClassIcon from "@material-ui/icons/Class";
 
 function Experience() {
-  return <div>Experience</div>;
+  return (
+    <div className="experience">
+      <VerticalTimeline lineColor="#3e497a">
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017-2021"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Arizona State University (ASU), Tempe, AZ
+          </h3>
+          <p>Bachelors</p>
+          <p>Biomedical Sciences and Biochemistry(minor)</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017-2021"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Undergraduate Teaching Assistant - School of Life Sciences, ASU
+          </h3>
+          <p>Tempe, AZ</p>
+          <p>Supported BIO 281 and BIO 282 at ASU</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2021-2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Medical Scribe - Essential Scribe
+          </h3>
+          <p>Phoenix, Arizona</p>
+          <p>
+            Assisted physicians in the Hematology/Oncology department at
+            Ironwood Cancer and Research Center Center
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022-2023"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            University of Pennsylvania (UPenn), Philidelphia, PA
+          </h3>
+          <p>Masters</p>
+          <p>Computer and Information Technology</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022-2022"
+          iconStyle={{ background: "green", color: "#fff" }}
+          icon={<ClassIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            CodePath - Technical Interview Prep
+          </h3>
+          <p>
+            Learned about data structures and algorithms and pair programmed to
+            solve leetcode question with others in my cohort
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2022-Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Tutor/Academic Coach - School of Engineering and Applied Sciences,
+            UPenn
+          </h3>
+          <p>
+            Support students in the Into to Software Developoment and Computer
+            Systems Course
+          </p>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </div>
+  );
 }
 
 export default Experience;
