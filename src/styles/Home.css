@@ -20,7 +20,7 @@
     display: block;
     margin: 0 auto;
     border-radius: 100%;
-    max-width: 300px; /* Adjust the size as needed */
+    max-width: 225px; /* Adjust the size as needed */
   }
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
