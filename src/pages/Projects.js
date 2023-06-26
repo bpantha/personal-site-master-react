@@ -1,7 +1,17 @@
 import React from "react";
+import ConstructionIcon from "@mui/icons-material/Construction";
+import "../styles/P.css";
 
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div className="construction">
+      <ConstructionIcon style={{ fontSize: "100px" }}></ConstructionIcon>
+      <div>
+        {" "}
+        <span>Under Construction</span>
+      </div>
+    </div>
+  );
 }
 
 export default Projects;

@@ -1,0 +1,8 @@
+.construction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100px;
+    height: 100vh;
+}
+  
