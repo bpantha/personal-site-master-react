@@ -5,9 +5,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "../styles/Projects.css";
-import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
-import ClassIcon from "@material-ui/icons/Class";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
+import ClassIcon from "@mui/icons-material/Class";
 
 function Experience() {
   return (
