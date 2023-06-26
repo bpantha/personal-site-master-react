@@ -3,13 +3,15 @@ import ConstructionIcon from "@mui/icons-material/Construction";
 import "../styles/P.css";
 
 function About() {
-  <div className="construction">
-    <ConstructionIcon style={{ fontSize: "100px" }}></ConstructionIcon>
-    <div>
-      {" "}
-      <span>Under Construction</span>
+  return (
+    <div className="construction">
+      <ConstructionIcon style={{ fontSize: "100px" }}></ConstructionIcon>
+      <div>
+        {" "}
+        <span>Under Construction</span>
+      </div>
     </div>
-  </div>;
+  );
 }
 
 export default About;
