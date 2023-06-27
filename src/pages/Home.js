@@ -14,7 +14,7 @@ function Home() {
         <h2>Hi, My Name is Jay</h2>
         <img src={headshot} alt="" />
         <div className="prompt">
-          <p>I am Interested in Software Engineering and Data Science</p>
+          <p></p>
           <a
             href="https://www.linkedin.com/in/bidurpantha/"
             target="_blank"
