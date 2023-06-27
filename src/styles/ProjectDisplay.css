@@ -1,28 +1,35 @@
 .project {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .project h1 {
-    margin-top: 50px;
-    color: #3e497a;
-    font-size: 35px;
-  }
-  .project img {
-    width: 700px;
-    border-radius: 10px;
-  }
-  
-  .project p {
-    font-size: 40px;
-    color: #3e497a;
-  }
-  
-  .project svg {
-    font-size: 60px;
-    color: #3e497a;
-  }
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.project h1 {
+  margin-top: 20px;
+  color: #3e497a;
+  font-size: 30px;
+}
+
+.project img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.project p {
+  font-size: 24px;
+  color: #3e497a;
+  margin-top: 20px;
+}
+
+.project svg {
+  font-size: 40px;
+  color: #3e497a;
+  margin-top: 20px;
+}
