@@ -17,7 +17,7 @@ export const ProjectList = [
       "React, Node, Express, MySQL, AWS RDS, GitHub, Python, Pandas, Google Colab, Datalore",
   },
   {
-    name: "Assembler/Dissambler",
+    name: "Assembler/Disassembler",
     image: bits,
     skills:
       "C (Assembly, file i/o, dynamic memory allocation, binary, GDB degubber, Makefile)",

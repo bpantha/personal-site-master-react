@@ -1,4 +1,78 @@
-.construction {
+/* .construction {
   text-align: center;
   justify-content: center;
+} */
+.aboutMe {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
+
+.aboutMe h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.education {
+  margin-top: 30px;
+}
+
+.education h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.education img {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.hobbies {
+  margin-top: 30px;
+}
+
+.hobbies h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.hobbies ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hobbies li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hobbies li img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.hobbies li span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Add additional styles or modifications as needed */
+
+
+.goals {
+  margin-top: 30px;
+}
+
+.goals h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Add additional styles or modifications as needed */
