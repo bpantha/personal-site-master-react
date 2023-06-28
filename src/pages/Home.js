@@ -12,7 +12,7 @@ function Home() {
       <div className="about">
         <h2>Hi, My Name is Jay</h2>
         <div className="headShot">
-          <img src={headshot} alt="" />
+          <img className="responsive-image" src={headshot} alt="" />
         </div>
         <div className="prompt">
           <p></p>

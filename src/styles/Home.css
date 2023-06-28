@@ -16,11 +16,25 @@
     background-color: #21325e;
     color: #f0f0f0;
   }
+  .headShot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .headShot {
+      margin-bottom: 0;
+    }
+  }
+  
   .headShot img {
     display: block;
     margin: 0 auto;
     border-radius: 100%;
     max-width: 225px; /* Adjust the size as needed */
+    margin-top: 2rem;
   }
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
