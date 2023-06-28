@@ -90,7 +90,7 @@ function Experience() {
             UPenn
           </h3>
           <p>
-            Support students in the Into to Software Developoment and Computer
+            Support students in the Intro to Software Developoment and Computer
             Systems Course
           </p>
         </VerticalTimelineElement>

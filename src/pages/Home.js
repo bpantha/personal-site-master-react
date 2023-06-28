@@ -4,7 +4,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import DownloadIcon from "@mui/icons-material/Download";
 import Resume from "../resume/Bidur_Pantha_Resume.pdf";
-
 import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
 function Home() {

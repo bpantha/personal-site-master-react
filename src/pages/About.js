@@ -1,15 +1,11 @@
 import React from "react";
 import ConstructionIcon from "@mui/icons-material/Construction";
-import "../styles/P.css";
-
+import "../styles/About.css";
 function About() {
   return (
     <div className="construction">
-      <ConstructionIcon style={{ fontSize: "100px" }}></ConstructionIcon>
-      <div>
-        {" "}
-        <span>Under Construction</span>
-      </div>
+      <ConstructionIcon style={{ height: "120px", width: "80px" }} />
+      <p>Under Construction</p>
     </div>
   );
 }
