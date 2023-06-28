@@ -11,7 +11,9 @@ function Home() {
     <div className="home">
       <div className="about">
         <h2>Hi, My Name is Jay</h2>
-        <img src={headshot} alt="" />
+        <div className="headShot">
+          <img src={headshot} alt="" />
+        </div>
         <div className="prompt">
           <p></p>
           <a
