@@ -42,8 +42,19 @@
     color: #ffffff;
     height: 50px;
   }
+  .drop{
+    animation: dropIn 1s ease forwards;
+  }
+  @keyframes dropIn{
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0);}
+  }
+  .first {
+    animation-delay: 100ms;
+  }
+
   
-  .about .prompt {
+ .about .prompt {
     width: 40%;
     font-size: 20px;
   }

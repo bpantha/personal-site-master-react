@@ -19,10 +19,14 @@ function Home() {
           backgroundPosition: "center",
         }}
       >
-        <h2>Hi, My Name is Jay</h2>
+        <div className="drop first">
+          {" "}
+          <h2>Hi, My Name is Jay</h2>
+        </div>
         <div className="headShot">
           <img className="responsive-image" src={headshot} alt="" />
         </div>
+
         <div className="prompt">
           <p></p>
           <a
@@ -47,6 +51,7 @@ function Home() {
             <EmailIcon />
           </a>
         </div>
+
         <div className="resume">
           <a href={Resume} target="_blank" rel="noopener noreferrer">
             <p style={{ color: "white" }}>Resume</p>
