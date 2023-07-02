@@ -6,10 +6,19 @@ import DownloadIcon from "@mui/icons-material/Download";
 import Resume from "../resume/Bidur_Pantha_Resume.pdf";
 import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
+import snowy from "../images/snowy_flight.jpg";
 function Home() {
   return (
     <div className="home">
-      <div className="about">
+      <div
+        className="about"
+        style={{
+          backgroundImage: `url(${snowy})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      >
         <h2>Hi, My Name is Jay</h2>
         <div className="headShot">
           <img className="responsive-image" src={headshot} alt="" />
