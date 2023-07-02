@@ -43,11 +43,16 @@
     height: 50px;
   }
   .drop{
+    opacity: 0;
     animation: dropIn 1s ease forwards;
   }
   @keyframes dropIn{
-    from {transform: translateY(-500px);}
-    to {transform: translateY(0);}
+    from {transform: translateY(-500px);
+      opacity: 0;
+      ;}
+    to {transform: translateY(0);
+      opacity: 1;
+    }
   }
   .first {
     animation-delay: 100ms;
