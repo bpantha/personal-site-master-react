@@ -11,6 +11,12 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 function App() {
   return (
     <div className="App">
+      <html>
+        <head>
+          <title> Jay Pantha</title>
+          <meta name="Description" content="Jay Pantha Personal Website"></meta>
+        </head>
+      </html>
       <Router>
         <Navbar />
         <Routes>
