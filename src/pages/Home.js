@@ -1,9 +1,9 @@
 import React from "react";
+import bidur_resume from "../resume/bidur_resume.pdf";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import DownloadIcon from "@mui/icons-material/Download";
-import Resume from "../resume/bidur_resume.pdf";
 import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
 import snowy from "../images/snowy_flight.jpg";
@@ -53,9 +53,8 @@ function Home() {
         </div>
 
         <div className="resume">
-          <a href={Resume} target="_blank" rel="noopener noreferrer">
+          <a href={bidur_resume} target="_blank" rel="noopener noreferrer">
             <p style={{ color: "white" }}>Resume</p>
-
             <DownloadIcon style={{ fontSize: "70px", color: "white" }}>
               {" "}
             </DownloadIcon>
