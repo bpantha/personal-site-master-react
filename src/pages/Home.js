@@ -3,7 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import DownloadIcon from "@mui/icons-material/Download";
-import Resume from "../resume/Bidur_Pantha_Resume.pdf";
+import Resume from "../resume/bidur_resume.pdf";
 import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
 import snowy from "../images/snowy_flight.jpg";
