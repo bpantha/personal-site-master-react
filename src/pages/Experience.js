@@ -72,12 +72,9 @@ function Experience() {
           icon={<ClassIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            CodePath - Technical Interview Prep
+            CodePath - Training Program
           </h3>
-          <p>
-            Learned about data structures and algorithms and pair programmed to
-            solve leetcode question with others in my cohort
-          </p>
+          <p>Gained a deeper understanding of data structures and algorithms</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
