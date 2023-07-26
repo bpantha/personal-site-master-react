@@ -22,7 +22,7 @@ export const ProjectList = [
     name: "Assembler/Disassembler",
     image: bits,
     skills:
-      "C (Assembly, file i/o, dynamic memory allocation, binary, GDB degubber, Makefile)",
+      "C (Assembly, Binary, File i/o, Dynamic Memory Allocation, GDB Debugger, Makefile)",
     link: "https://github.com/bpantha/Assembler-Disassembler",
   },
   {
