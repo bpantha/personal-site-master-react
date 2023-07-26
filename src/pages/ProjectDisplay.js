@@ -1,17 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import ProjectList from "../helpers/ProjectList";
+
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
-  let aName = "";
-  if (project.name === "Attrition Predictive Analytics") {
-    aName = "Notebook";
-  } else {
-    aName = "Github";
-  }
+  let aName = "GitHub";
+
   let projectLink = 0;
   if (project.link.length > 1) {
     projectLink = 1;

@@ -9,7 +9,7 @@ export const ProjectList = [
     image: analytics,
     skills:
       "Python, Pandas, Sklearn, TensorFlow, Matplotlib, Seaborn, Numpy, Logistic Regression, Random Forest, Neural Network",
-    link: "https://datalore.jetbrains.com/notebook/wYRCVpx60TrenOFxXSs1uy/6CVpeYieGGDzPcsswBPnDl",
+    link: "https://github.com/bpantha/Attrition-Predictive-Analytics",
   },
   {
     name: "NBA Reference",
@@ -23,13 +23,13 @@ export const ProjectList = [
     image: bits,
     skills:
       "C (Assembly, file i/o, dynamic memory allocation, binary, GDB degubber, Makefile)",
-    link: " ",
+    link: "https://github.com/bpantha/Assembler-Disassembler",
   },
   {
     name: "Philadelphia Data Analyzer",
     image: philly,
     skills: "Java, UML, N-tier architecture, file i/o, CSV, JSON",
-    link: " ",
+    link: "https://github.com/bpantha/Data-Analyzer",
   },
 ];
 
