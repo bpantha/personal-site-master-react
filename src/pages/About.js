@@ -17,10 +17,10 @@ function About() {
         <p>
           I made a career transition into the field of software engineering and
           data science after completing my Bachelor's degree in Biomedical
-          Sciences(major) and Biochemistry(minor) at Arizona State University
-          (ASU). While pursuing my undergraduate studies, I gained practical
-          experience as a Research Assistant at the Global Sport Institute and
-          also served as a Teaching Assistant for Intro to Biology courses.
+          Sciences(major) and Biochemistry(minor) at Arizona State University.
+          While pursuing my undergraduate studies, I gained practical experience
+          as a Research Assistant at the Global Sport Institute and also served
+          as a Teaching Assistant for Intro to Biology courses.
           <br></br>
           <br></br>
           After completing my undergraduate degree, I decided to gain some
@@ -35,9 +35,9 @@ function About() {
           various industries and how much there was to learn. Motivated by this
           newfound passion, I decided to further enhance my technical skills and
           pursue a Master's degree in the MCIT program at the University of
-          Pennsylvania (UPenn). This program provided me with a solid foundation
-          in computer science principles, programming languages, and data
-          analysis techniques. <br></br>
+          Pennsylvania. This program provided me with a solid foundation in
+          computer science principles, programming languages, and data analysis
+          techniques. <br></br>
           <br></br>Throughout my time at UPenn, I immersed myself in intensive
           coursework focused on software engineering and data science. I delved
           into various topics, including algorithms, database management,
