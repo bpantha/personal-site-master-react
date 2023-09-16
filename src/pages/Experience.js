@@ -85,7 +85,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Software Engineer - Microchip Technologies
           </h3>
-          <p>Python, SQL, Spark, Neo4j, ETL</p>
+          <p>Python, SQL, Spark, Neo4j, ETL, Machine Learning, Data Analysis</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
