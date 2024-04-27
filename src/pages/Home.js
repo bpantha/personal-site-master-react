@@ -56,7 +56,7 @@ function Home() {
 
         <div className="resume">
           <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <p style={{ color: "white" }}>Resume 8/30/2023</p>
+            <p style={{ color: "white" }}>Resume April 2024</p>
           </a>
         </div>
       </div>

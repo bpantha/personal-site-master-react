@@ -68,8 +68,8 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Teaching Assitant - School of Engineering and Applied Sciences,
-            UPenn
+            Head Teaching Assistant - School of Engineering and Applied
+            Sciences, UPenn
           </h3>
           <p>
             Support students in the Intro to Software Developoment and Computer

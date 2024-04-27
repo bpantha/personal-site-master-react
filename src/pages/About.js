@@ -46,6 +46,10 @@ function About() {
           fields of software engineering and data science. Moreover, I had the
           opportunity to apply my knowledge and skills to real-world projects,
           both independently and as part of a team.
+          <br></br>
+          <br></br>
+          Now working as a software engineer at Microchip Technologies, I am
+          able to I leverage my expertise to drive meaningful impact.
         </p>
       </div>
     </div>

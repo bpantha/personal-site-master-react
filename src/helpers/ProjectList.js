@@ -18,19 +18,6 @@ export const ProjectList = [
       "React, Node, Express, MySQL, AWS RDS, GitHub, Python, Pandas, Google Colab, Datalore",
     link: "https://github.com/bpantha/nba-app",
   },
-  {
-    name: "Assembler/Disassembler",
-    image: bits,
-    skills:
-      "C (Assembly, Binary, File i/o, Dynamic Memory Allocation, GDB Debugger, Makefile)",
-    link: "https://github.com/bpantha/Assembler-Disassembler",
-  },
-  {
-    name: "Philadelphia Data Analyzer",
-    image: philly,
-    skills: "Java, UML, N-tier architecture, file i/o, CSV, JSON",
-    link: "https://github.com/bpantha/Data-Analyzer",
-  },
 ];
 
 export default ProjectList;
