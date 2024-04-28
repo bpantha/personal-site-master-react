@@ -1,7 +1,5 @@
 import analytics from "../images/analytics.png";
 import nba from "../images/nba.png";
-import bits from "../images/bits.jpg";
-import philly from "../images/philly.png";
 
 export const ProjectList = [
   {
