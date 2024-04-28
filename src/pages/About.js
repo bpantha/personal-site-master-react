@@ -48,7 +48,7 @@ function About() {
           both independently and as part of a team.
           <br></br>
           <br></br>
-          Now working as a software engineer at Microchip Technologies, I am
+          Now working as a Software Engineer at Microchip Technologies, I am
           able to I leverage my expertise to drive meaningful impact.
         </p>
       </div>
