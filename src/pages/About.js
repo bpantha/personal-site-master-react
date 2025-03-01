@@ -59,18 +59,16 @@ function About() {
         <h3>Hobbies</h3>
         <div
           style={{
-            display: "flex",
-            justifyContent: "center",
+            display: "grid",
+            gridTemplateColumns: "repeat(4, 1fr)",
+            gap: "20px",
+            justifyItems: "center",
             alignItems: "center",
-            position: "relative",
             height: "100%",
           }}
         >
           <span
             style={{
-              position: "absolute",
-              top: "10%",
-              left: "20%",
               fontSize: "2em",
               fontWeight: "bold",
               color: "#2c3e50",
@@ -80,9 +78,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "30%",
-              left: "60%",
               fontSize: "1.8em",
               fontWeight: "bold",
               color: "#e74c3c",
@@ -92,9 +87,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "50%",
-              left: "10%",
               fontSize: "2.2em",
               fontWeight: "bold",
               color: "#3498db",
@@ -104,9 +96,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "70%",
-              left: "50%",
               fontSize: "1.5em",
               fontWeight: "bold",
               color: "#f39c12",
@@ -116,9 +105,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "20%",
-              left: "80%",
               fontSize: "1.9em",
               fontWeight: "bold",
               color: "#8e44ad",
@@ -128,9 +114,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "40%",
-              left: "40%",
               fontSize: "1.8em",
               fontWeight: "bold",
               color: "#16a085",
@@ -140,9 +123,6 @@ function About() {
           </span>
           <span
             style={{
-              position: "absolute",
-              top: "60%",
-              left: "70%",
               fontSize: "1.9em",
               fontWeight: "bold",
               color: "#9b59b6",
@@ -162,8 +142,10 @@ function About() {
       >
         <div
           style={{
-            display: "flex",
-            justifyContent: "center",
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: "20px",
+            justifyItems: "center",
             alignItems: "center",
             position: "relative",
             height: "100%",
@@ -173,9 +155,6 @@ function About() {
             src={basketball}
             alt="Basketball"
             style={{
-              position: "absolute",
-              top: "10%",
-              left: "20%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -186,9 +165,6 @@ function About() {
             src={nationalParks}
             alt="National Parks"
             style={{
-              position: "absolute",
-              top: "35%",
-              left: "55%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -199,9 +175,6 @@ function About() {
             src={traveling}
             alt="Traveling"
             style={{
-              position: "absolute",
-              top: "25%",
-              left: "5%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -212,9 +185,6 @@ function About() {
             src={coffee}
             alt="Coffee"
             style={{
-              position: "absolute",
-              top: "55%",
-              left: "45%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -225,9 +195,6 @@ function About() {
             src={spanish}
             alt="Spanish"
             style={{
-              position: "absolute",
-              top: "15%",
-              left: "75%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -238,9 +205,6 @@ function About() {
             src={cooking}
             alt="Cooking"
             style={{
-              position: "absolute",
-              top: "35%",
-              left: "30%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -251,9 +215,6 @@ function About() {
             src={photography}
             alt="Photography"
             style={{
-              position: "absolute",
-              top: "65%",
-              left: "60%",
               width: "200px",
               height: "200px",
               borderRadius: "10px",
@@ -266,17 +227,20 @@ function About() {
       <style>{`
         @media (max-width: 768px) {
           .photosSection {
-            height: 350px;
+            height: auto;
           }
           .photosSection img {
             width: 150px;
             height: 150px;
           }
+          .personalFacts {
+            height: auto;
+          }
         }
 
         @media (max-width: 480px) {
           .photosSection {
-            height: 300px;
+            height: auto;
           }
           .photosSection img {
             width: 130px;
