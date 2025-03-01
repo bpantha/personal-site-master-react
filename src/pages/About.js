@@ -262,6 +262,28 @@ function About() {
           />
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 768px) {
+          .photosSection {
+            height: 350px;
+          }
+          .photosSection img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .photosSection {
+            height: 300px;
+          }
+          .photosSection img {
+            width: 130px;
+            height: 130px;
+          }
+        }
+      `}</style>
     </div>
   );
 }
