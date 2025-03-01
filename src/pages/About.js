@@ -58,6 +58,7 @@ function About() {
       >
         <h3>Hobbies</h3>
         <div
+          className="hobbiesGrid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(4, 1fr)",
@@ -226,6 +227,9 @@ function About() {
 
       <style>{`
         @media (max-width: 768px) {
+          .personalFacts .hobbiesGrid {
+            grid-template-columns: 1fr 1fr;
+          }
           .photosSection {
             height: auto;
           }
@@ -233,12 +237,12 @@ function About() {
             width: 150px;
             height: 150px;
           }
-          .personalFacts {
-            height: auto;
-          }
         }
 
         @media (max-width: 480px) {
+          .personalFacts .hobbiesGrid {
+            grid-template-columns: 1fr;
+          }
           .photosSection {
             height: auto;
           }
