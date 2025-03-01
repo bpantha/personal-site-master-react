@@ -22,8 +22,9 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Arizona State University, Tempe, AZ
           </h3>
-          <p>Bachelors</p>
-          <p>Biomedical Sciences and Biochemistry(minor)</p>
+          <p>Bachelors - Barrett the Honors College</p>
+          <p>Biomedical Sciences and Biochemistry</p>
+          <p>Summa Cum Laude</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -49,6 +50,7 @@ function Experience() {
           </h3>
           <p>Masters</p>
           <p>Computer and Information Technology</p>
+          <p>Magna Cum Laude</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -59,7 +61,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             CodePath - Apprentice
           </h3>
-          <p>Python, Data structures and alogrithms</p>
+          <p>Refined skills in Python, Data Structures, Algorithms</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -68,24 +70,21 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Head Teaching Assistant - School of Engineering and Applied
-            Sciences, UPenn
+            Head Academic Coach - School of Engineering and Applied Sciences,
+            UPenn
           </h3>
-          <p>
-            Support students in the Intro to Software Developoment and Computer
-            Systems Course
-          </p>
+          <p>Support students in the Intro to Software Developoment Course</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2022-Present"
+          date="2023-Present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Software Engineer - Microchip Technologies
+            Data Science Anayst - Microchip Technologies
           </h3>
-          <p>Python, SQL, Spark, Neo4j, ETL, Machine Learning, Data Analysis</p>
+          <p>Python, SQL, Azure, Tableau, LLMs</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

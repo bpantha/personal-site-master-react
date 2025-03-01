@@ -6,6 +6,8 @@ import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
 import snowy from "../images/snowy_flight.jpg";
 import Resume from "../resume/bidur_resume.pdf";
+import headshot2 from "../images/Headshot.jpg";
+
 function Home() {
   return (
     <div className="home">
@@ -27,7 +29,7 @@ function Home() {
         </div>
         <div>
           {" "}
-          <p style={{ fontSize: "30px" }}> Software Engineer </p>
+          <p style={{ fontSize: "30px" }}> Data Scientist </p>
         </div>
 
         <div className="prompt">
@@ -85,11 +87,11 @@ function Home() {
           </li>
           <li className="item">
             <h2>Cloud Technologies</h2>
-            <span>AWS(RDS, S3)</span>
+            <span>Azure (DevOps, Repos), AWS(RDS, S3)</span>
           </li>
           <li className="item">
             <h2>Tools</h2>
-            <span>Docker, GitHub, Tableau, Excel</span>
+            <span>Tableau, Github, Excel</span>
           </li>
           <li className="item">
             <h2>IDE/Environments</h2>

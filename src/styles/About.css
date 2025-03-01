@@ -22,6 +22,12 @@
   color: #555;
 }
 
+.personalFacts h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+
 .education img {
   max-width: 200px;
   margin-top: 10px;
