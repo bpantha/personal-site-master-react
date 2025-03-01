@@ -6,7 +6,6 @@ import "../styles/Home.css";
 import headshot from "../images/Screenshot 2023-06-26 at 1.59.07 PM.png";
 import snowy from "../images/snowy_flight.jpg";
 import Resume from "../resume/bidur_resume.pdf";
-import headshot2 from "../images/Headshot.jpg";
 
 function Home() {
   return (
