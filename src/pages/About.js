@@ -12,10 +12,6 @@ import photography from "../images/photography.jpg";
 
 function About() {
   return (
-    // <div className="construction">
-    //   <ConstructionIcon style={{ height: "120px", width: "80px" }} />
-    //   <p>Under Construction</p>
-    // </div>
     <div className="aboutMe">
       <h1>About Me</h1>
       <div
@@ -23,16 +19,16 @@ function About() {
         style={{ fontSize: "1.1em", lineHeight: "1.6" }}
       >
         <h3>My Academic Journey</h3>
-        <img style={{ width: "130px" }} src={asu} alt="" />
-        <img style={{ width: "120%" }} src={upenn} alt="" />
+        <img style={{ width: "130px" }} src={asu} alt="ASU" />
+        <img style={{ width: "120%" }} src={upenn} alt="UPenn" />
         <p>
           I transitioned into software engineering and data science after
           earning a Bachelor's in Biomedical Sciences (major) and Biochemistry
           (minor) from Arizona State University. During my undergrad, I gained
           hands-on experience as a Research Assistant at the Global Sport
           Institute and a Teaching Assistant for Intro to Biology courses.
-          <br></br>
-          <br></br>
+          <br />
+          <br />
           Initially pursuing a medical career, I worked as a medical scribe but
           found myself more fascinated by electronic medical record software
           than patient care. This curiosity led me to explore software
@@ -40,14 +36,15 @@ function About() {
           technical foundation, I pursued a Master's in Computer and Information
           Technology (MCIT) at the University of Pennsylvania, where I gained
           expertise in algorithms, databases, machine learning, and software
-          development through rigorous coursework and real-world projects.{" "}
-          <br></br>
-          <br></br>Now, as a Data Science Analyst at Microchip Technologies, I
-          apply my skills to drive meaningful impact in industry.
-          <br></br>
+          development through rigorous coursework and real-world projects.
+          <br />
+          <br />
+          Now, as a Data Science Analyst at Microchip Technologies, I apply my
+          skills to drive meaningful impact in industry.
+          <br />
         </p>
       </div>
-      <br></br>
+      <br />
       <hr style={{ margin: "40px 0", border: "1px solid #ccc" }} />
       <div
         className="personalFacts"
@@ -156,12 +153,12 @@ function About() {
         </div>
       </div>
 
-      <br></br>
+      <br />
       <hr style={{ margin: "40px 0", border: "1px solid #ccc" }} />
 
       <div
         className="photosSection"
-        style={{ marginTop: "40px", position: "relative", height: "450px" }} // Increased container height
+        style={{ marginTop: "40px", position: "relative", height: "450px" }}
       >
         <div
           style={{
@@ -173,92 +170,92 @@ function About() {
           }}
         >
           <img
-            src={basketball} // Replace with your actual image URL
+            src={basketball}
             alt="Basketball"
             style={{
               position: "absolute",
               top: "10%",
               left: "20%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={nationalParks} // Replace with your actual image URL
+            src={nationalParks}
             alt="National Parks"
             style={{
               position: "absolute",
               top: "35%",
               left: "55%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={traveling} // Replace with your actual image URL
+            src={traveling}
             alt="Traveling"
             style={{
               position: "absolute",
               top: "25%",
               left: "5%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={coffee} // Replace with your actual image URL
+            src={coffee}
             alt="Coffee"
             style={{
               position: "absolute",
               top: "55%",
               left: "45%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={spanish} // Replace with your actual image URL
+            src={spanish}
             alt="Spanish"
             style={{
               position: "absolute",
               top: "15%",
               left: "75%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={cooking} // Replace with your actual image URL
+            src={cooking}
             alt="Cooking"
             style={{
               position: "absolute",
               top: "35%",
               left: "30%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
           />
           <img
-            src={photography} // Replace with your actual image URL
+            src={photography}
             alt="Photography"
             style={{
               position: "absolute",
               top: "65%",
               left: "60%",
-              width: "200px", // Increased width
-              height: "200px", // Increased height
+              width: "200px",
+              height: "200px",
               borderRadius: "10px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
             }}
