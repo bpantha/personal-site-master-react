@@ -71,32 +71,28 @@ function Home() {
             <span>Python, JavaScript, JAVA, C</span>
           </li>
           <li className="item">
-            <h2>Database</h2>
-            <span>SQL, MongoDB, Neo4j</span>
-          </li>
-          <li className="item">
-            <h2>Web Frameworks/Libraries</h2>
-            <span>Node.js, Express.js, React.js</span>
-          </li>
-          <li className="item">
-            <h2>Data Frameworks/Libraries</h2>
+            <h2>Data</h2>
             <span>
-              Pandas, Sklearn, NumPy, Seaborn, Matplotlib, PySpark, PyTorch
+              SQL, Tableau, Pandas, AI Implementation, PySpark, PyTorch
             </span>
           </li>
+          <li className="item">
+            <h2>Web</h2>
+            <span>Node.js, Express.js, React.js</span>
+          </li>
+
           <li className="item">
             <h2>Cloud Technologies</h2>
             <span>Azure (DevOps, Repos), AWS(RDS, S3)</span>
           </li>
           <li className="item">
             <h2>Tools</h2>
-            <span>Tableau, Github, Excel</span>
+            <span>Github, Excel, Docker</span>
           </li>
           <li className="item">
             <h2>IDE/Environments</h2>
             <span>
-              Datalore, Jupyter, Visual Studio, InteliJ IDEA, Eclipse, PyCharm,
-              DataGrip, Compass
+              Visual Studio Code, InteliJ IDEA, Eclipse, PyCharm, DataGrip{" "}
             </span>
           </li>
         </ol>
