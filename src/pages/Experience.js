@@ -46,7 +46,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            University of Pennsylvania, Philidelphia, PA
+            University of Pennsylvania, Philadelphia, PA
           </h3>
           <p>Masters</p>
           <p>Computer and Information Technology</p>
